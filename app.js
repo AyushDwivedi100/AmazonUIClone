@@ -12,7 +12,7 @@ function head(title) {
     <body>
         <div class="root">
         <div class="head">
-            <a href="index.html" class="logo"><img src="image/Amazon-logo.png" alt="Image Not Found"></a>
+            <a href="index.html" class="logo"><img src="image/amazon-logo.png" alt="Image Not Found"></a>
             <input type="search" placeholder="Search products" size=70 id="search" class="search-bar">
             <button class="search" Onclick="product();"><i class="fa-solid fa-magnifying-glass"></i></button>
             <button class="login">Login</button>
