@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.root{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    height: 100px;
+    padding: 2%;
+    background-color: #131921;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+}
+.head img{
+    padding:10%;
+}
+.head img:hover{
+    border:2px solid white;
+}
+.head input{
+    padding: 0.5%;
+    font-size: 1rem;
+}
+.search-bar{
+    border-radius: 10px 0px 0px 10px;
+    border:none;
+    line-height: 2rem;
+    margin-left: 100px;
+}
+.search{
+    padding:0.50% 1%;
+    margin-right: 100px;
+    background-color: goldenrod;
+    border:none;
+    border-radius: 0px 10px 10px 0px;
+}
+.search i{
+    color: black !important;
+}
+.login{
+    padding: 1%;
+    background-color:#131921;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+.login:hover{
+    border: 2px solid white;
+}
+.cart{
+    margin-left: 100px;
+    background-color: #131921;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    padding: 0.5%;
+    border:none;
+}
+.cart:hover{
+    border:2px solid white;
+}
+.head i{
+    font-size: 2rem;
+    color:white;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: #232F3E;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    padding:1%;
+    line-height: 50px;
+}
+.nav a:hover{
+    border: 2px solid white;
+}
+.aside{
+    width: 20%;
+    background-color: white;
+}
+.aside-user{
+    padding: 3% 20px;
+    background-color: #131921;
+    font-weight: 600;
+    color:white;
+    font-size: 1.70rem;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.heading{
+    padding: 15px 20px 15px 33px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: 700;
+}
+.sub-heading{
+    padding: 13px 20px 13px 36px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.article{
+    width: 80%;
+    gap: 20px;
+    font-weight: 600;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 1.2rem;
+    
+}
+.homePost{
+    padding: 1%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.salePost{
+    height: 420px;
+    width: 390px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px
+}
+.salePost a{
+    padding:0% 2%;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #007185;
+    text-decoration: none;
+    font-weight: 100;
+}
+.salePost a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.salePost p{
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 100;
+}
+.salePost h1{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 21px;
+    padding: 1%;
+}
+.salePost p{
+    padding:1%;
+    width: 186px;
+}
+.strechSalePost {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 1%;
+}
+.strechSalePost h1{
+    font-size: 21px;
+    padding: 5vh 1%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    display: inline;
+}
+.strechSalePost a{
+    font-size: 14px;
+    padding: 1%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-decoration: none;
+    color:#007185;
+    font-weight: 100;
+}
+.strechSalePost a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.strechSalePost img{
+    padding: 2% 0%;
+}
+.article select{
+    border-radius: 8px;
+    font-size: 1.2rem;
+    float: right;
+}
+.post{
+    width: 100%;
+    border: 0.5px solid black;
+    height: 300px;
+    margin: 2% 0%;
+    font-weight: 900;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: 100;
+}
+.post img{
+    height: 298px;
+    background-color: whitesmoke;
+    float: left;
+    margin-right: 20px;
+}
+.name{
+    font-weight: 200;
+}
+.price{
+    padding: 1%;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.footer{
+    width: 100%;
+    padding: 1%;
+    color:white;
+    font-size: 1rem;
+    background-color: #131A22;
+    text-align: center;
+}
